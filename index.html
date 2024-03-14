@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Custom c_Popup Using Vanilla JavaScript</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<style>
+    .class1 {
+        color: #f00;
+    }
+    .class2 {
+        color: #00f;
+    }
+</style>
+
+    <div id="div" class="class1">click here</div>
+    
+
+
+<script>
+    function classToggle() {
+        //this.classList.toggle('class1');
+        this.classList.toggle('class2');
+    }
+    document.querySelector('.class1').addEventListener('click', classToggle);
+</script>
+</body>
+</html>
